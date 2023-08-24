@@ -60,6 +60,6 @@ Go to the project directory
 No dependencies, just run the .py file.
 ## Yes, I know it's slow
 
-I wrote this in 30 min inbetween work meetings. It checks every possible permutation of workers, which I know is inefficient since order doesnt matter within rooms, it only matters whic h room they're in, but it was the first thought and it runs fast *enough* and most importantly: it works. 
+I wrote this in 30 min inbetween work meetings. It checks every possible permutation of workers, which I know is inefficient since order doesnt matter within rooms, it only matters which room they're in, but it was the first thought and it runs fast *enough* and most importantly: it works. 
 
 As more rooms and people are unlocked I may revisit to use combination instead. Only issue is that order doesnt matter within each room, but which room they're in does, so I'll have to rewrite a large chunk of this to make that efficency change. For now though, better than doing it manually.
